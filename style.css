@@ -100,3 +100,24 @@ header ul li{
     margin-top: 30px;
     background-color: #BA3801;
 }
+
+.quote-section{
+    background-color: #4A69B3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.quote{
+    font-size: 1.75rem;
+    margin: 0;
+    font-style: italic;
+}
+
+.author{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-right: -200px;
+}
