@@ -75,3 +75,28 @@ header ul li{
     align-items: center;
     color:white;
 }
+
+.gallery{
+    background: #FFEC89;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.gallery-container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.gallery-img{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: #BA3801;
+}
