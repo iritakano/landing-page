@@ -46,7 +46,7 @@ header ul li{
     flex: 1;
 }
 
-.hero-text button{
+.hero-text button, .cta button{
     width: 100px;
     padding: 5px;
     border-radius: 7px;
@@ -54,6 +54,10 @@ header ul li{
     background-color: #BA3801;
     color: white;
     font-family: quicksand;
+}
+
+.hero-text p{
+    margin-bottom: 20px;
 }
 
 .hero-img{
@@ -108,6 +112,7 @@ header ul li{
     align-items: center;
     flex-direction: column;
     height: 300px;
+    color: white;
 }
 
 .quote{
@@ -120,4 +125,31 @@ header ul li{
     font-size: 1.2rem;
     margin-top: 10px;
     margin-right: -200px;
+}
+
+.cta-container{
+    background-color: var(--butter);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.cta{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    background-color: #BA3801;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.cta button{
+    background-color: #4A69B3;
+}
+
+.cta h3, .cta p{
+    margin: 5px;
 }
