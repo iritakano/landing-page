@@ -2,9 +2,15 @@ html{
     margin: 0;
     padding: 0;
     font-family: quicksand;
-    --orange: #BA3801;
-    --blue: #4A69B3;
-    --butter: #FFEC89;
+    --blue: #25344F;
+    --red: #632024;
+    --tan: #D5BB93;
+    --brown: #6F4D38;
+}
+
+body{
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -51,7 +57,7 @@ header ul li{
     padding: 5px;
     border-radius: 7px;
     border: 1px solid black;
-    background-color: #BA3801;
+    background-color: var(--blue);
     color: white;
     font-family: quicksand;
 }
@@ -64,7 +70,7 @@ header ul li{
     display: flex;
     flex:1;
     text-align: center;
-    background-color: var(--butter);
+    background-color: var(--tan);
     height: 200px;
     align-items: center;
     justify-content: center;
@@ -72,7 +78,7 @@ header ul li{
 }
 
 .big-container{
-    background-color:var(--blue);
+    background-color:var(--red);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,7 +87,7 @@ header ul li{
 }
 
 .gallery{
-    background: #FFEC89;
+    background: var(--tan);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,11 +108,11 @@ header ul li{
     border: 2px solid black;
     border-radius: 10px;
     margin-top: 30px;
-    background-color: #BA3801;
+    background-color: var(--blue);
 }
 
 .quote-section{
-    background-color: #4A69B3;
+    background-color: var(--brown);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,7 +134,7 @@ header ul li{
 }
 
 .cta-container{
-    background-color: var(--butter);
+    background-color: var(--tan);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,16 +146,23 @@ header ul li{
     justify-content: space-around;
     align-items: center;
     width: 800px;
-    background-color: #BA3801;
+    background-color: var(--blue);
     padding: 30px;
     border-radius: 10px;
     color: white;
 }
 
 .cta button{
-    background-color: #4A69B3;
+    border: 1px solid white;
 }
 
 .cta h3, .cta p{
     margin: 5px;
+}
+
+footer{
+    background-color: var(--red);
+    text-align: center;
+    padding: 20px;
+    color: white;
 }
