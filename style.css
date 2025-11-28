@@ -1,0 +1,21 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: quicksand;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    gap: 30px;
+}
+
+header ul li{
+    list-style: none;
+}
